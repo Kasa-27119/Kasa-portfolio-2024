@@ -118,10 +118,10 @@ const Home = () => {
           <div className="project-left">
             <h2>The Heating Company</h2>
             {/* bento box gallery */}
-            <div class="grid orange-bg">
-              <div class="item item-0">0</div>
-              <div class="item item-1">1</div>
-              <div class="item item-2">2</div>
+            <div className="grid orange-bg">
+              <div className="item item-0" id='heating1'></div>
+              <div className="item item-1" id='heating2'></div>
+              <div className="item item-2" id='heating3'></div>
             </div>
           </div>
           <div className="project-right">
@@ -132,7 +132,9 @@ const Home = () => {
             <br /><br />
             The web app is also required to be responsive and have at least three breakpoints for customers to access the app from their tablets, phones, and smart TVs.
             </p>
-            <button className='primary-btn navigate-btn'>Go to Website</button>
+            <button className='primary-btn navigate-btn'>
+              <a href="https://the-heating-company-redesign-summative.vercel.app/" target='_blank'>Go to Website</a>
+            </button>
           </div>
         </div>
       </section>
@@ -144,10 +146,10 @@ const Home = () => {
           <div className="project-left">
             <h2 className='reverse-text'>Wanaka Hotels</h2>
             {/* bento box gallery */}
-            <div class="grid orange-bg">
-              <div class="item item-0">0</div>
-              <div class="item item-1">1</div>
-              <div class="item item-2">2</div>
+            <div className="grid orange-bg">
+              <div className="item item-0" id='wanaka1'></div>
+              <div className="item item-1" id='wanaka2'></div>
+              <div className="item item-2" id='wanaka3'></div>
             </div>
           </div>
           <div className="project-right">
@@ -156,8 +158,11 @@ const Home = () => {
               <br /><br />
               As a part of a solo assessment for the Foundation Coding project of my current course, I was tasked to create a single-page accommodation web app for Tourism NZ that would positively promote NZ tourism internationally. <br/><br/>
               Users would be able to input their info, validate their info, and display accommodation options based on the info that was entered.
+              
             </p>
-            <button className='primary-btn navigate-btn'>Go to Website</button>
+            <button className='primary-btn navigate-btn'>
+              <a href="https://wanaka-hotels-website.vercel.app/" target='_blank'>Go to Website</a>  
+            </button>
           </div>
         </div>
       </section>
@@ -169,10 +174,10 @@ const Home = () => {
           <div className="project-left">
             <h2>Give a Kid a Blanket</h2>
             {/* bento box gallery */}
-            <div class="grid orange-bg">
-              <div class="item item-0">0</div>
-              <div class="item item-1">1</div>
-              <div class="item item-2">2</div>
+            <div className="grid orange-bg">
+              <div className="item item-0" id='gakab1'></div>
+              <div className="item item-1" id='gakab2'></div>
+              <div className="item item-2" id='gakab3'></div>
             </div>
           </div>
           <div className="project-right">
@@ -194,7 +199,7 @@ const Home = () => {
             <img src="/img/laptop2.jpg" alt="contact form purple laptop photo" id='contact-img' />
           </div>
           <div className="contact-right">
-            <h2>Contact Me</h2>
+            <h2 className='text-center'>Contact Me</h2>
             <ContactForm></ContactForm>
           </div>
       </div>

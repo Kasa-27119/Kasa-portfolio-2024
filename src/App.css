@@ -240,7 +240,7 @@ p {
 }
 
 .hero-btn a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -329,13 +329,14 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #9046CF; */
 }
 
 .skill-icon {
   background-size: contain;
   object-fit: cover;
   object-position: center;
+
+  transition: scale 0.3s ease;
 }
 
 /* project section */
@@ -381,7 +382,12 @@ p {
   font-size: 32px !important;
   height: 68px;
   width: 300px;
-  color: #fff;
+  color: #ffffff;
+}
+
+.navigate-btn a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /* contact form */
@@ -410,7 +416,7 @@ p {
 }
 
 .contact-right h2, .contact-right p, .contact-right label {
-  color: #fff;
+  color: #ffffff;
 }
 
 .contact-right {
@@ -418,7 +424,7 @@ p {
 }
 
 .form-text {
-  color: #fff;
+  color: #ffffff;
 }
 
 .contact-form {
@@ -444,6 +450,7 @@ label h5 {
 }
 
 input, textarea {
+  background-color: #ffffff;
   text-indent: 5px;
   padding: 10px;
   font-size: 21px;
@@ -475,18 +482,60 @@ textarea {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  gap: 10px;
+  gap: 15px;
   padding: 30px;
   border-radius: 15px;
 }
 
+/* bento imgs */
+#heating1 {
+  background-image: url('/img/heating-comp-full.jpg');
+}
+
+#heating2 {
+  background-image: url('/img/heating-comp-main.jpg');
+}
+
+#heating3 {
+  background-image: url('/img/heating-laptop.jpg');
+}
+
+#wanaka1 {
+  background-image: url('/img/wanaka-laptop.jpg');
+}
+
+#wanaka2 {
+  background-image: url('img/wanaka hotels mockup.png');
+}
+
+#wanaka3 {
+  background-image: url('/img/wanaka-acomms-laptop.jpg');
+}
+
+#gakab1 {
+  background-image: url('/img/gakab-home.png');
+}
+
+#gakab2 {
+  background-image: url('img/gakab-donation.png');
+}
+
+#gakab3 {
+  background-image: url('/img/gakab-store.png');
+}
+
+
+
 .item {
   height: 210px;
   background-color: #444;
-  color: #fff;
+  color: #ffffff;
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s ease;
 }
 
 .mobile-only {
@@ -516,7 +565,7 @@ textarea {
   .grid {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    gap: 8px;
+    gap: 25px;
   }
   .mobile-only {
     display: none;
@@ -556,5 +605,15 @@ textarea {
 .navlink a:active {
   transition: color;
   color: #e67853;
+}
+
+.item:hover {
+  transition: scale 0.3s ease;
+  scale: 103%;
+}
+
+.skill-icon:hover {
+  transition: scale 0.3s ease;
+  scale: 110%;
 }
 

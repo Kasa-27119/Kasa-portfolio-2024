@@ -1,9 +1,9 @@
 import './App.css'
 
 // import components/pages
-import Home from '../pages/Home'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Home from './pages/Home'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (

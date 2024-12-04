@@ -52,27 +52,27 @@ const Home = () => {
             {/* skills grid */}
             <div className="skills-grid">
               <div className="skill-item skill-icon">
-                  <img src='imgs/icons8-react-100.png'></img>
+                  <img src='/img/icons8-react-100.png'></img>
               </div>
 
               <div className="skill-item skill-icon">
-                  <img src='/imgs/icons8-photoshop-100.png'></img>
+                  <img src='/img/icons8-photoshop-100.png'></img>
               </div>
 
               <div className="skill-item skill-icon">
-                  <img src='/imgs/icons8-illustrator-100.png'></img>
+                  <img src='/img/icons8-illustrator-100.png'></img>
               </div>
 
               <div className="skill-item skill-icon">
-                  <img src='/imgs/icons8-adobe-indesign-100.png'></img>
+                  <img src='/img/icons8-adobe-indesign-100.png'></img>
               </div>
 
               <div className="skill-item skill-icon">
-                  <img src='/imgs/icons8-blender-100.png'></img>
+                  <img src='/img/icons8-blender-100.png'></img>
               </div>
 
               <div className="skill-item skill-icon">
-                  <img src='/imgs/icons8-js-100.png'></img>
+                  <img src='/img/icons8-js-100.png'></img>
               </div>
             </div>
           </div>
@@ -81,27 +81,27 @@ const Home = () => {
             {/* skills grid */}
             <div className="skills-grid">
               <div className="skill-item skill-icon">
-                  <img src='/imgs/icons8-presentation-100.png'></img>
+                  <img src='/img/icons8-presentation-100.png'></img>
               </div>
 
               <div className="skill-item skill-icon">
-                  <img src='/imgs/icons8-creativity-100.png'></img>
+                  <img src='/img/icons8-creativity-100.png'></img>
               </div>
 
               <div className="skill-item skill-icon">
-                  <img src='/imgs/icons8-puzzle-matching-100.png'></img>
+                  <img src='/img/icons8-puzzle-matching-100.png'></img>
               </div>
 
               <div className="skill-item skill-icon">
-                  <img src='/imgs/icons8-writing-100.png'></img>
+                  <img src='/img/icons8-writing-100.png'></img>
               </div>
 
               <div className="skill-item skill-icon">
-                  <img src='/imgs/icons8-group-task-100.png'></img>
+                  <img src='/img/icons8-group-task-100.png'></img>
               </div>
 
               <div className="skill-item skill-icon">
-                  <img src='/imgs/icons8-analysis-100.png'></img>
+                  <img src='/img/icons8-analysis-100.png'></img>
               </div>
             </div>
 

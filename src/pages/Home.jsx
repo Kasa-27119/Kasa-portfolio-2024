@@ -30,7 +30,7 @@ const Home = () => {
         <div className='about-container'>
           <div className="about-left orange-bg">
             <h2>About Me</h2>
-            <img src="imgs/profile-pic.jpg" alt="about me picture" className='about-me-img'/>
+            <img src="/img/profile-pic.jpg" alt="about me picture" className='about-me-img'/>
           </div>
 
           <div className="about-right">
@@ -191,7 +191,7 @@ const Home = () => {
       <div className='contact-container gradient-border'>
           
           <div className="contact-left orange-bg">
-            <img src="imgs/laptop2.jpg" alt="contact form purple laptop photo" id='contact-img' />
+            <img src="/img/laptop2.jpg" alt="contact form purple laptop photo" id='contact-img' />
           </div>
           <div className="contact-right">
             <h2>Contact Me</h2>

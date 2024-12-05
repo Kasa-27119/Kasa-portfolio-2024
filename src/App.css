@@ -277,7 +277,6 @@ p {
 }
 
 .about-right {
-  /* background-color: #FCEFF9; */
   height: 100%;
 }
 
@@ -505,7 +504,7 @@ textarea {
 }
 
 #wanaka2 {
-  background-image: url('img/wanaka hotels mockup.png');
+  background-image: url('img/wanaka-hotels-mockup.png');
 }
 
 #wanaka3 {
@@ -517,7 +516,7 @@ textarea {
 }
 
 #gakab2 {
-  background-image: url('img/gakab-donation.png');
+  background-image: url('/img/gakab-donation.png');
 }
 
 #gakab3 {
@@ -528,7 +527,6 @@ textarea {
 
 .item {
   height: 210px;
-  background-color: #444;
   color: #ffffff;
   border-radius: 5px;
   padding: 20px;

@@ -186,7 +186,9 @@ const Home = () => {
             Made as the final Content Management Systems summative of my Web & UX course. I was tasked to create a redesigned website for a local non-profit using WordPress, and introduce functionality and customisation to its features, posts, and theme. <br /><br />
             The redesign would help promote Give a Kid a Blanket and bring awareness to their cause of helping children stay warm in the Auckland area.
             </p>
-            <button className='primary-btn navigate-btn'>Go to Website</button>
+            <button className='primary-btn navigate-btn'>
+              <a href="https://summative-4-give-a-kid-a-blanket.vercel.app/" target='_blank'>Go to Website</a>  
+            </button>
           </div>
         </div>
       </section>

@@ -378,9 +378,9 @@ p {
 
 .navigate-btn {
   margin-top: 30px;
-  font-size: 32px !important;
-  height: 68px;
-  width: 300px;
+  font-size: 26px !important;
+  height: 58px;
+  width: 240px;
   color: #ffffff;
 }
 
@@ -523,7 +523,20 @@ textarea {
   background-image: url('/img/gakab-store.png');
 }
 
+.btn-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
 
+.extra-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 
 .item {
   height: 210px;

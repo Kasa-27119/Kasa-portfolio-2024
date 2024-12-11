@@ -132,9 +132,14 @@ const Home = () => {
             <br /><br />
             The web app is also required to be responsive and have at least three breakpoints for customers to access the app from their tablets, phones, and smart TVs.
             </p>
+           <div className="btn-container">
             <button className='primary-btn navigate-btn'>
-              <a href="https://the-heating-company-redesign-summative.vercel.app/" target='_blank'>Go to Website</a>
-            </button>
+                <a href="https://the-heating-company-redesign-summative.vercel.app/" target='_blank'>Go to Website</a>
+              </button>
+              <button className='primary-btn navigate-btn'>
+                <a href="https://github.com/Kasa-27119/the-heating-company-redesign-summative" target='_blank'>Go to GitHub</a>
+              </button>
+           </div>
           </div>
         </div>
       </section>
@@ -160,9 +165,14 @@ const Home = () => {
               Users would be able to input their info, validate their info, and display accommodation options based on the info that was entered.
               
             </p>
-            <button className='primary-btn navigate-btn'>
-              <a href="https://wanaka-hotels-website.vercel.app/" target='_blank'>Go to Website</a>  
-            </button>
+            <div className="btn-container">
+              <button className='primary-btn navigate-btn'>
+                <a href="https://wanaka-hotels-website.vercel.app/" target='_blank'>Go to Website</a>  
+              </button>
+              <button className='primary-btn navigate-btn'>
+                <a href="https://github.com/Kasa-27119/foundation-coding-summative-2.2-accommodation-website" target='_blank'>Go to GitHub</a>  
+              </button>
+            </div>
           </div>
         </div>
       </section>
@@ -186,9 +196,19 @@ const Home = () => {
             Made as the final Content Management Systems summative of my Web & UX course. I was tasked to create a redesigned website for a local non-profit using WordPress, and introduce functionality and customisation to its features, posts, and theme. <br /><br />
             The redesign would help promote Give a Kid a Blanket and bring awareness to their cause of helping children stay warm in the Auckland area.
             </p>
-            <button className='primary-btn navigate-btn'>
-              <a href="https://summative-4-give-a-kid-a-blanket.vercel.app/" target='_blank'>Go to Website</a>  
-            </button>
+            <div className="btn-container">
+              <button className='primary-btn navigate-btn'>
+                <a href="https://github.com/Kasa-27119/summative-4-give-a-kid-a-blanket" target='_blank'>Frontend GitHub</a>  
+              </button>
+              <button className='primary-btn navigate-btn'>
+                <a href="https://github.com/Kasa-27119/give-a-kid-a-blanket-custom-theme" target='_blank'>Theme GitHub</a>  
+              </button>
+            </div>
+            <div className="extra-btn-container">
+              <button className='primary-btn navigate-btn'>
+                <a href="https://summative-4-give-a-kid-a-blanket.vercel.app/" target='_blank'>Go to Website</a>  
+              </button>
+            </div>
           </div>
         </div>
       </section>
